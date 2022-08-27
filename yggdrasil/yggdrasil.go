@@ -24,7 +24,7 @@ func (e Error) Error() string {
 	return e.Err + ": " + e.ErrMsg + ", " + e.Cause
 }
 
-var AuthURL = "https://authserver.mojang.com"
+var AuthURL = "https://skin.tesf.top/api/yggdrasil"
 
 var client = http.DefaultClient
 
